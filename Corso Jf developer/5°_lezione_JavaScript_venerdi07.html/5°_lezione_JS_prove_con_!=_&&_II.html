@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ita">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova JS</title>
+    <style>
+        button {
+           color: darkblue;
+           background-color: darkorange;
+           border: 3px solid black;
+        }
+        body {
+            background-color: chartreuse;
+        }
+    </style>
+</head> 
+
+<body style="text-align: center;">
+    <h1>La finestra dell'oggetto</h1>
+    <h2>Il prompt() Method</h2>
+    <p>Premi il pulsante per mostrare il prompt bob.</p>
+    <button onclick="myFunction()"> Prova Questo</button> 
+    <p id="demo"></p>
+    <script>
+        function myFunction() {
+            let person = prompt("Perfavore inserisci il tuo NOME","Lorenzo Pace");
+            if (person != null){
+                document.getElementById("demo").innerHTML = //getElement for classes
+                     "Salve " + person + " Come stai oggi?";
+                     console.log("Compilato")
+            }
+        }
+        myFunction
+    </script>
+</body>
+</html>
+<body style="text-align: center;">
+    <h1>La finestra dell'oggetto</h1>
+    <h2>Il prompt() Method</h2>
+    <p>Premi il pulsante per mostrare il prompt bob.</p>
+    <button onclick="myFunction2()"> Prova Questo</button> 
+    <p id="demo2"></p>
+    <script>
+        function myFunction2() {
+            let person = prompt("Perfavore inserisci il tuo NOME","");
+            if (person != null && person !="Lorenzo Pace" ){
+                document.getElementById("demo2").innerHTML = //getElement for classes
+                     "Salve " + person + " Come stai oggi?";
+                     console.log("Compilato")
+            }
+        }
+        myFunction2
+    </script>
+</body>
+</html>
+<body style="text-align: center;">
+    <h1>La finestra dell'oggetto</h1>
+    <h2>Il prompt() Method</h2>
+    <p>Premi il pulsante per mostrare il prompt</p>
+    <button onclick="myFunction3()"> Prova Questo</button> 
+    <p id="demo3"></p>
+    <script>
+        function myFunction3() {
+            let person = prompt("Perfavore inserisci il tuo NOME","");
+            if (person != null && person != "Lorenzo Pace" ){
+                document.getElementById("demo3").innerHTML = //getElement for classes
+                     "Salve " + person + " Come stai oggi?";
+                     console.log("Compilato")
+            }
+        }
+        myFunction3
+    </script>
+</body>
+</html>

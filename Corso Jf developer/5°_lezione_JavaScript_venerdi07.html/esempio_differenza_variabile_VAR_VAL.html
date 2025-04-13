@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ita">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esempio VAR</title>
+</head>
+<body>
+    <script>
+        function esempioVar() {
+            let messaggio = "Benvenuti dal funzione di scopo"
+
+            if (true){
+                let messaggio = "Hello from the block scope!";
+                console.log(messaggio);                               
+            }
+            console.log(messaggio)
+        }
+        esempioVar()
+    </script>   
+    
+</body>
+</html>
