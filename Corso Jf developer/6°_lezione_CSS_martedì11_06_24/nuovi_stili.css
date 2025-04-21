@@ -1,0 +1,36 @@
+#size_carattere{
+    font-size: 10vb;
+    font-size: 10vw;
+    color: blue;
+    font-weight: 900;
+    text-align:center;
+   
+    
+}
+.secondo_div{
+    background-color: rgb(34, 22, 8);
+    text-align: center;
+    background-image: url('images_sfondo.jpg');
+    background-repeat: repeat repeat-y;
+    background-size: 40%;
+}
+
+
+a:hover{
+    font-weight: 900;
+    font-size: 200%;
+   
+}
+a:focus{
+    color: black;
+}
+a:visited{
+    color: chocolate;
+}
+
+a:first-child{
+    color: red;
+}
+a:last-child{
+    color: blanchedalmond;
+}

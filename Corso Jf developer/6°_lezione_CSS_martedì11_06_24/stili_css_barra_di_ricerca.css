@@ -1,0 +1,59 @@
+.navbar-item a {
+    background-color: burlywood;
+    font-size: 5vh;
+    direction: block;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px;
+    font-family: roboto, sans-serif;
+    transition: background 0.3s ease-in-out;
+}
+
+.navbar-item a:hover {
+    background-color: red;
+}
+
+.navbar {
+    background-color: #333;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.navbar-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:focus {
+    color: black;
+}
+
+a:active {
+    color: crimson;
+}
+.immagine_di_sfondo {
+    background-image: url('immagine_cellulare_per_sfondo.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: scroll;
+    height: 600px;
+    color: #bdb4b4;
+    /*display: block;*/
+    display: flex;
+    justify-content: center;
+    /*align-items: flex-start;*/
+    align-items: center;
+}
+
